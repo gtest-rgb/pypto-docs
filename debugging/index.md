@@ -7,6 +7,9 @@
 :titlesonly:
 
 debugging_system_review
+pypto_debugging_capabilities_analysis
+pypto_debugging_capabilities_by_workflow
+api_examples
 ```
 
 ## 调试能力概览
@@ -107,6 +110,9 @@ Level 3: 大数据量    ──▶ 性能验证
 ## 相关文档
 
 - [维测体系审视与改进建议](debugging_system_review.md): 从算子开发者角度审视 PyPTO 维测方法的完备性
+- [PyPTO维测能力分析（按API分类）](pypto_debugging_capabilities_analysis.md): 按 API 分类系统分析维测能力
+- [PyPTO维测能力分析（按工作流三阶段）](pypto_debugging_capabilities_by_workflow.md): 按算子开发、功能调试、性能调试三阶段系统分析维测能力
+- [API 使用示例](api_examples.md): 所有维测 API 和工具的完整使用示例
 - [API 文档 - Verify 选项](../api/config/pypto-set_verify_options.md)
 - [API 文档 - Debug 选项](../api/config/pypto-set_debug_options.md)
 - [API 文档 - pass_verify_print](../api/others/pypto-pass_verify_print.md)
